@@ -1,17 +1,17 @@
 body {
-    margin: 0; /*Eliminiamo il margine tra la inizio e la parte inziale del nostro body*/
+    margin: 0;
   }
   a {
     font-weight: bold;
     font-size: 20px;
-    text-decoration: none; /*Stiamo levando la sottolineatura*/
+    text-decoration: none;
     background-color: aqua;
     color: black;      
-    padding: 10px 20px;   /*top+bottom  left+right*/
+    padding: 10px 20px;  
     border-radius: 60px; 
   }
   #Logout{
-    text-decoration: underline; /*Stiamo inserendo la sottolineatura solo per LogOut*/
+    text-decoration: underline; 
   }
   @media (max-width: 500px) {
     a {
@@ -19,7 +19,7 @@ body {
     }
   }
   a:hover{
-    background-color: antiquewhite; /*Cambia il colore quando passiamo sopra con l'indicatore*/
+    background-color: antiquewhite; 
   }
   nav { /*Flex_box*/
     display: flex;
@@ -39,14 +39,14 @@ body {
     position: relative;
     z-index: -2;
   }
-  #overlay { /*Strato trasparente sopra la foto dell'intestazione*/
+  #overlay {
     background-color:rgba(0, 0, 0, 0.3);
     position: absolute;
     height: 100%;
     width: 100%;
     z-index: -1;
   }
-  .container_titolo{ /*Flex_box*/
+  .container_titolo{ 
      display: flex;
      height: 350px;
      justify-content: center;
@@ -73,7 +73,7 @@ body {
     font-size: 20px;
   }
   }
-  .container_profilo{ /*Flex-box*/
+  .container_profilo{ 
     display: flex;
     flex-direction: column;
     align-items: center;
